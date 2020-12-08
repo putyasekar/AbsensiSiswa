@@ -1,8 +1,10 @@
-package com.example.absensisiswa;
+package com.example.absensisiswa.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.absensisiswa.R;
 
 public class MainActivity extends AppCompatActivity {
 
