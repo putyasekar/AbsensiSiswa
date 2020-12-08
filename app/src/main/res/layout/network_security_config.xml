@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <base-config android:cleartextTrafficPermitted="true">
-
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <base-config cleartextTrafficPermitted="true"
+        tools:ignore="MissingPrefix">
         <trust-anchors>
-
-            <certificates android:src="system" />
+            <certificates src="system"
+                tools:ignore="MissingPrefix" />
         </trust-anchors>
     </base-config>
 </network-security-config>
