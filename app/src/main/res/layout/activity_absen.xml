@@ -10,111 +10,139 @@
         android:id="@+id/txt_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="@font/avanir5"
         android:text="@string/id"
         android:textSize="20sp" />
 
     <EditText
         android:id="@+id/edt_id"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btnphone"
+        android:fontFamily="@font/avanir12"
+        android:hint="@string/enter_the_id"
+        android:textColor="#000" />
 
     <TextView
         android:id="@+id/txt_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/avanir5"
         android:text="@string/nama"
         android:textSize="20sp" />
 
     <EditText
         android:id="@+id/edt_name"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btnphone"
+        android:fontFamily="@font/avanir12"
+        android:hint="@string/enter_your_name" />
 
     <TextView
         android:id="@+id/txt_class"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/avanir5"
         android:text="@string/kelas"
         android:textSize="20sp" />
 
     <EditText
         android:id="@+id/edt_class"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btnphone"
+        android:fontFamily="@font/avanir12"
+        android:hint="@string/enter_your_grade" />
 
     <TextView
         android:id="@+id/txt_pelajaran"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/avanir5"
         android:text="@string/pelajaran"
         android:textSize="20sp" />
 
     <EditText
         android:id="@+id/edt_pelajaran"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btnphone"
+        android:fontFamily="@font/avanir12"
+        android:hint="@string/enter_your_lesson" />
 
     <TextView
         android:id="@+id/txt_keterangan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/avanir5"
         android:text="@string/keterangan"
         android:textSize="20sp" />
 
     <EditText
         android:id="@+id/edt_keterangan"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btnphone"
+        android:fontFamily="@font/avanir12"
+        android:hint="@string/enter_your_absence" />
 
     <TextView
         android:id="@+id/txt_tanggal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/avanir5"
         android:text="@string/tanggal"
         android:textSize="20sp" />
 
     <EditText
         android:id="@+id/edt_tanggal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btnphone"
+        android:fontFamily="@font/avanir12"
+        android:hint="@string/enter_the_date" />
 
     <Button
         android:id="@+id/btn_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="5dp"
-        android:background="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/avanir5"
         android:text="@string/save"
         android:textColor="@android:color/white" />
 
@@ -125,8 +153,11 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="16dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@drawable/btn_loginshape"
+        android:fontFamily="@font/avanir5"
         android:text="@string/Delete"
-        android:textColor="@android:color/white" />
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#000" />
 
 </LinearLayout>

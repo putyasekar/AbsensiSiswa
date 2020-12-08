@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AbsensiSiswa</string>
+    <string name="app_name">Absensi Siswa</string>
     <string name="save">Save</string>
     <string name="id">ID</string>
     <string name="nama">Nama</string>
@@ -8,4 +8,12 @@
     <string name="keterangan">Keterangan Masuk</string>
     <string name="tanggal">Tanggal</string>
     <string name="Delete">delete</string>
+    <string name="add_user">Add User</string>
+    <string name="fetch_user">Fetch User</string>
+    <string name="enter_the_id">Enter the ID</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_grade">Enter your grade</string>
+    <string name="enter_your_lesson">Enter your lesson</string>
+    <string name="enter_your_absence">Enter your absence</string>
+    <string name="enter_the_date">Enter the date</string>
 </resources>
